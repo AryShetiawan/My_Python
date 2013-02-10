@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Project SYSTEM "Project-4.6.dtd">
+<!-- eric4 project file for project forensics -->
+<!-- Saved: 2013-02-10, 14:33:19 -->
+<!-- Copyright (C) 2013 Jon,  -->
+<Project version="4.6">
+  <Language></Language>
+  <ProgLanguage mixed="0">Python</ProgLanguage>
+  <ProjectType>Console</ProjectType>
+  <Description>Taken form tutorials in Violent Python Violent Python: A Cookbook for Hackers, Forensic Analysts, Penetration Testers and Security Engineers </Description>
+  <Version>0.1</Version>
+  <Author>Jon</Author>
+  <Email></Email>
+  <Sources>
+    <Source>NAME/__init__.py</Source>
+    <Source>setup.py</Source>
+    <Source>tests/NAME_tests.py</Source>
+    <Source>tests/__init__.py</Source>
+    <Source>__init__.py</Source>
+  </Sources>
+  <Forms>
+  </Forms>
+  <Translations>
+  </Translations>
+  <Resources>
+  </Resources>
+  <Interfaces>
+  </Interfaces>
+  <Others>
+  </Others>
+  <Vcs>
+    <VcsType>None</VcsType>
+  </Vcs>
+  <FiletypeAssociations>
+    <FiletypeAssociation pattern="*.pyw" type="SOURCES" />
+    <FiletypeAssociation pattern="*.idl" type="INTERFACES" />
+    <FiletypeAssociation pattern="*.py" type="SOURCES" />
+    <FiletypeAssociation pattern="*.ptl" type="SOURCES" />
+  </FiletypeAssociations>
+</Project>
