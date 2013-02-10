@@ -14,7 +14,7 @@ config = {
     'install_requires': ['BeatifulSoup'],
     'install_requires': ['PIL'],
     'packages': ['NAME'],
-    'scripts': [],
+    'scripts': [getGPS.py],
     'name': 'forensics'
 }
 

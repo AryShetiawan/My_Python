@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Project SYSTEM "Project-4.6.dtd">
 <!-- eric4 project file for project forensics -->
-<!-- Saved: 2013-02-10, 14:33:19 -->
+<!-- Saved: 2013-02-10, 20:16:54 -->
 <!-- Copyright (C) 2013 Jon,  -->
 <Project version="4.6">
   <Language></Language>
@@ -12,11 +12,16 @@
   <Author>Jon</Author>
   <Email></Email>
   <Sources>
-    <Source>NAME/__init__.py</Source>
-    <Source>setup.py</Source>
-    <Source>tests/NAME_tests.py</Source>
-    <Source>tests/__init__.py</Source>
-    <Source>__init__.py</Source>
+    <Source>FORENSICS/setup.py</Source>
+    <Source>FORENSICS/tests/__init__.py</Source>
+    <Source>FORENSICS/tests/FORENSICS_tests.py</Source>
+    <Source>FORENSICS/forensics/__init__.py</Source>
+    <Source>FORENSICS/forensics/imagedownloader.py</Source>
+    <Source>exiff.py</Source>
+    <Source>FORENSICS/bin/getGPS.py</Source>
+    <Source>FORENSICS/forensics/exiff.py</Source>
+    <Source>FORENSICS/__init__.py</Source>
+    <Source>FORENSICS/bin/__init__.py</Source>
   </Sources>
   <Forms>
   </Forms>
