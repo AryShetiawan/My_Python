@@ -12,9 +12,18 @@ def main():
         exit(0)
     else:
         imgTags = imagedownloader.findImages(url)
+
         for imgTag in imgTags:
             imgFileName = imagedownloader.downloadImage(imgTag)
             exiff.getExifData(imgFileName)
 
+#        for x in range(1,2):
+#            urlmask = url + '%d/'%x
+#            print urlmask
+##            raw_input('?')
+#            imgTags = imagedownloader.findImages(urlmask)
+#            for imgTag in imgTags:
+#                imgFileName = imagedownloader.downloadImage(imgTag)
+#                exiff.getExifData(imgFileName)
 if __name__ == "__main__":
     main()

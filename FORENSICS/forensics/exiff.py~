@@ -13,7 +13,7 @@ def getExifData(imgFileName,  tag=None):
     '''Get embedded EXIF data from image file'''
     try:
         exifData ={}
-        print('[+] opening %s'%imgFileName)
+        print('[+] opening %s looking for %r'%(imgFileName,  tag))
         imgFile = Image.open(imgFileName)
         if testForExif(imgFile):
             print("\t[*] Got EXIF")

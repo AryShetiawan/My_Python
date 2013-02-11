@@ -31,4 +31,4 @@ def downloadImage(imgTag = None):
         imgFile.close()
         return imgFile
     except Exception,  err:
-        print('[e] %s'%err)
+        print('[e] %r'%err)
