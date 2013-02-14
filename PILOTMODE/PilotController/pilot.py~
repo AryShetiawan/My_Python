@@ -1,0 +1,11 @@
+class Pilot(object):
+
+    def __init__(self, start_mode):
+        pass
+
+    def nextMode(self, mode_name):
+        pass
+
+    def modeSettings(self):
+        pass
+

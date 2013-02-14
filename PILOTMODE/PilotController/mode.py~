@@ -1,0 +1,6 @@
+class Mode(object):
+    '''base class for all mode transitions etc...'''
+    def enter(self):
+        pass
+
+

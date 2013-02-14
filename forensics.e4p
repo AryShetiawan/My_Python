@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Project SYSTEM "Project-4.6.dtd">
 <!-- eric4 project file for project forensics -->
-<!-- Saved: 2013-02-10, 20:16:54 -->
+<!-- Saved: 2013-02-11, 01:03:34 -->
 <!-- Copyright (C) 2013 Jon,  -->
 <Project version="4.6">
   <Language></Language>
@@ -20,8 +20,8 @@
     <Source>exiff.py</Source>
     <Source>FORENSICS/bin/getGPS.py</Source>
     <Source>FORENSICS/forensics/exiff.py</Source>
-    <Source>FORENSICS/__init__.py</Source>
     <Source>FORENSICS/bin/__init__.py</Source>
+    <Source>FORENSICS/forensics/getGPS.py</Source>
   </Sources>
   <Forms>
   </Forms>
