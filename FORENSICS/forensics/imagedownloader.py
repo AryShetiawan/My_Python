@@ -1,5 +1,5 @@
 import urllib2
-import lxml
+#import lxml
 import html5lib
 from urlparse import urlsplit
 from os.path import basename,  join
