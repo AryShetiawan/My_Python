@@ -1,5 +1,5 @@
 from mode import Mode
-class Exit(Mode):
+class PreTrack(Mode):
 
     def enter(self):
         pass

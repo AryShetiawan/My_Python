@@ -1,8 +1,8 @@
 class Mode(object):
     '''base class for all mode transitions etc...'''
     def enter(self, logging=False):
-        pass
-
+        print "[+] This mode is not yet configured. Subclass it and implement enter()."
+        exit(1)
 
     def logTheChange(self):
         def log(*args, **kwargs):

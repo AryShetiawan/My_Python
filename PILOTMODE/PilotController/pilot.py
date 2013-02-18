@@ -1,3 +1,6 @@
+
+import mode
+
 class Pilot(object):
 # is a or has a???
     def __init__(self, start_mode):

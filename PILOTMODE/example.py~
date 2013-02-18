@@ -1,0 +1,60 @@
+class Mode(object):
+
+    def enter(self):
+        print('[+] This mode is not yet configured. Sub-class it and implement enter().')
+        exit(1)
+
+
+class Engine(object):
+
+    def __init__(self, Mode_map):
+        self.mode_map = Mode_map
+
+    def play(self):
+        current_mode = self.pilot_map.opening_scene()
+        while True:
+            print('\n----------')
+            next_mode_name = current_mode.enter()
+            current_mode = self.mode_map.next_mode(next_mode_name)
+
+class Death(Mode):
+
+    def enter(self):
+        pass
+
+class CentralCorridor(Mode):
+
+    def enter(self):
+        pass
+
+class LaserWeaponArmory(Mode):
+
+    def enter(self):
+        pass
+
+class TheBridge(Mode):
+
+    def enter(self):
+        pass
+
+class EscapePod(Mode):
+
+    def enter(self):
+        pass
+
+
+class Map(object):
+
+    def __init__(self, start_Mode):
+        pass
+
+    def next_Mode(self, Mode_name):
+        pass
+
+    def opening_Mode(self):
+        pass
+
+
+a_map = Map('central_corridor')
+a_game = Engine(a_map)
+a_game.play()
