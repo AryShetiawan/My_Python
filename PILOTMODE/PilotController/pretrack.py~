@@ -1,5 +1,0 @@
-class LaserWeaponArmory(Scene):
-
-    def enter(self):
-        pass
-
