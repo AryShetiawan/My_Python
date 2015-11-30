@@ -88,5 +88,5 @@ try:
 
             raw_input("> ")
             print "ANSWER:  %s\n\n" % answer
-except EOFError:
+except (KeyboardInterrupt,EOFError):
     print "\nBye"
